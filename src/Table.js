@@ -6,16 +6,13 @@ import "rc-pagination/assets/index.css";
 
 import { allData } from "./constants";
 const drop =function()
-{ <div>
-  <input type={"checkbox"}>universities</input>
-  <input type={"checkbox"}>admission</input>
-  </div>
+{
 }
 const tableHead = {
   name: "Universities",
   web_pages: "Web pages",
   domains: "Domains",
-  state: "Status",
+  state: "States",
   country: "Country"
  
 };
@@ -79,8 +76,8 @@ const Table = () => {
     <>
       
       <div class="search">
-       <button onClick={drop}>universities</button>
-       <button onClick={drop}>admission</button>
+       
+       
         <input
           placeholder="Search universities"
           value={value}

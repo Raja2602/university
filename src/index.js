@@ -4,13 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Table from './Table';
-import BorderSpinner from './BorderSpinner';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App/>
     <Table/>
-    <BorderSpinner/>
+    
   </React.StrictMode>
   
 );
