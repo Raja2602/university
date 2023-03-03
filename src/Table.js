@@ -5,9 +5,7 @@ import Pagination from "rc-pagination";
 import "rc-pagination/assets/index.css";
 
 import { allData } from "./constants";
-const drop =function()
-{
-}
+
 const tableHead = {
   name: "Universities",
   web_pages: "Web pages",

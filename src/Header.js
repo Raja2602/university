@@ -6,7 +6,7 @@ function Header({click})
    
     <div className="Header">
      <img src={hamburger} alt="menu" onClick={click}/>
-     <span>menu</span>
+     <span>Menu</span>
      </div>
    
 
